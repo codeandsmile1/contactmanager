@@ -16,7 +16,7 @@ class AddContact extends Component {
   onSubmit = (event) => {
     event.preventDefault();
 
-    
+
   }
     render() {
         return (
@@ -25,7 +25,7 @@ class AddContact extends Component {
                   Add Contact
                 </div>
                 <div className="card-body">
-                 <form onSubmit= {onSubmit}>
+                 <form onSubmmit={this.onSubmit}>
                      <div className="form-group">
                      <label htmlFor="name">Name</label> 
                      <input type="text" 
