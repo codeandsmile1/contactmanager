@@ -36,7 +36,7 @@ class Contact extends Component {
          <IoIosArrowDown onClick={this.onShowClick} />
          <IoIosClose onClick={this.onDeleteClick.bind(this, this.props.id, dispatch)}/>
        </h3>
-       {this.state.showContactInfo == true ? (
+       {this.state.showContactInfo === true ? (
          <ul className="list-group">
            <li className="list-group-item">Email: {this.props.email}</li>
            <li className="list-group-item">Phone: {this.props.phone}</li>
