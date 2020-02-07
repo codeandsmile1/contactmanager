@@ -1,0 +1,11 @@
+  HTML5 
+  CSS3 
+  SASS
+  Javascript(Angular,React,Vue)
+  JQuery
+  AJAX
+  REST
+  Grunt, Gulp
+  Webpack
+  h Agile (Scrum/Kanban) methodologies
+  Integration with Web APIs and external systems
