@@ -23,14 +23,17 @@ class AddContact extends Component {
         phone: this.state.phone,
         email: this.state.email
     }
-  console.log(newContact)
-    //dispatch({type: "ADD_CONTACT", payload: newContact});
+
+    dispatch({type: "ADD_CONTACT", payload: newContact});
 
     this.setState({
         name: '',
         phone: '',
         email: ''
     });
+    
+    //NB
+    this.props.history.push('/');
   };
 
   render() {

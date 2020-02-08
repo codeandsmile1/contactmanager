@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+
+import {IoIosHome, IoIosAdd, IoIosInformation} from 'react-icons/io'
 import "./../header.css";
 
 const Header = props => {
@@ -11,10 +14,20 @@ const Header = props => {
         </a>
         <div>
           <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+              <Link to="/" className="nav-link">
+                Home <IoIosHome/>
+              </Link>
+              </li>
+          <li className="nav-item">
+              <Link to="/contact/add" className="nav-link">
+                Add <IoIosAdd/>
+              </Link>
+            </li>
             <li className="nav-item">
-              <a href="/" className="nav-link">
-                Home
-              </a>
+              <Link to="/about" className="nav-link">
+                About <IoIosInformation/>
+              </Link>
             </li>
           </ul>
         </div>
